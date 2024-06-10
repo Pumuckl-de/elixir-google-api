@@ -42,7 +42,9 @@ defmodule GoogleApi.ContentWarehouse.Mixfile do
     [
       {:google_gax, "~> 0.4"},
 
-      {:ex_doc, "~> 0.16", only: :dev}
+      {:ex_doc, "~> 0.16", only: :dev},
+
+{:google_api_content_warehouse, "~> 0.5"}
     ]
   end
 
@@ -64,3 +66,4 @@ defmodule GoogleApi.ContentWarehouse.Mixfile do
     ]
   end
 end
+
